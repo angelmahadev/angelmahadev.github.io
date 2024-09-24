@@ -1,0 +1,35 @@
+#title h4 {
+    /* Existing styles */
+    animation-name: slideInLeft; /* Name of the animation */
+    animation-duration: 3s; /* Duration of the animation */
+    animation-delay: 0.7s; /* Delay before the animation starts */
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+/* Tribute Page Animation */
+#title h1 {
+    /* Existing styles */
+    animation-name: slideInRight; /* Name of the animation */
+    animation-duration: 3s; /* Duration of the animation */
+    animation-delay: 0.7s; /* Delay before the animation starts */
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
